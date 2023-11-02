@@ -1,3 +1,9 @@
+# Aluno: Vinícius Oliveira Fernandes
+## Curso: Sistemas de Informação
+### Atividade: Criação de um docker-compose com todos os parâmetros de um kafka e seus gerenciadores e um exemplo de produção e consumo de mensagem local - Semana 3
+
+Nesta atividade foi proposto que criássemos um arquivo `docker-compose.yml` que define um ambiente Kafka com todos os parâmetros necessários. Sendo assim, segue atividade demonstrativa da aplicação local com produção e consumo de mensagens para um tópico no Kafka.
+
 ## Descrição das Funcionalidades de acordo com a Criação de um Consumidor de Mensagens Local
 
 ### Configuração do Docker Compose para Kafka e Zookeeper

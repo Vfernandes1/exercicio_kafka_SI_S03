@@ -14,7 +14,7 @@ Para a configuração do Docker Compose há necessidade da criação de três se
     *   `container_name: kafka-exercicio` especifica o nome do contêiner como "kafka-exercicio".
     *   `ports: - "9092:9092"` mapeia a porta 9092 do host para a porta 9092 do contêiner Kafka, permitindo a comunicação com o Kafka.
     *   `environment:` define variáveis de ambiente para o serviço Kafka, incluindo a configuração do host e a conexão com o Zookeeper.
-3.  **Serviço init-kafka:**
+*  **Serviço init-kafka:**
     
     *   `image: wurstmeister/kafka` indica que este serviço usará a imagem Docker do Kafka (para executar comandos Kafka).
     *   `depends_on: - kafka` garante que este serviço seja iniciado após o serviço Kafka.
